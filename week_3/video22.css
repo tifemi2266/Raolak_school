@@ -192,7 +192,7 @@ header nav ul li a {
         } 
         
 }
-
+}
 /*video18*/
 
 .index-banner {
@@ -288,7 +288,8 @@ header nav ul li a {
     .index-links div h3{
         line-height: 230px;
     }
-    
+    }
+
 
     /*CASES*/
 
@@ -365,10 +366,47 @@ header nav ul li a {
         column-gap: 30px;
     }
         
-/*footer*/
+/*GALLERY*/
+
+.gallery-links-h2 {
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+}
+
+.gallery-links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.gallery-img {
+    flex-basis: 90%;
+    margin: 10px;
+}
+
+
+.gallery-img img { 
+    width: 100%;
+}
+
+@media only screen and (min-width: 1000px) {
+    .gallery-links-h2 {
+        font-size: 28px;
+    }
+
+    .gallery-img {
+        flex-basis: 300px
+    }
+
+    /*footer*/
 
 footer {
-    width calc(100% - 80px);
+    width:calc(100% - 80px);
     padding: 40px 40px;
     margin-top: 20px;
     background-color: #111;
@@ -407,23 +445,7 @@ footer ul li a{
     margin-bottom: 10px;
 }
 
-@media only screen and (min-width: 1000px) {
-    .footer-links-cases {
-        display: block;
-    }
-
-    footer ul {
-        padding-right: 30px;
-    }
-
-    footer ul li p {
-        font-family: Catamaran;
-        font-size: 16px;
-        color: #fff;
-        line-height: 40px;
-        text-transform: uppercase;
-    }
-
+    
 
 
 
